@@ -1,0 +1,31 @@
+﻿### CONHECIMENTO BASE DO MaricáBot ###
+
+---
+Assunto: Números de Emergência (Maricá, RJ)
+- SAMU (Ambulância): 192
+- Polícia Militar: 190
+- Defesa Civil de Maricá: 199 ou (21) 98785-3205
+- Guarda Municipal de Maricá: 153
+
+---
+Assunto: Horários dos Vermelhinhos (Ônibus Gratuito - EPT)
+- Linha E01 - PONTA NEGRA via MANOEL RIBEIRO 
+    Horários de Saída: 04:00 04:45 05:45 06:45 07:45 08:25 08:55 10:05 10:35 11:35 12:05 12:45 13:40 14:20 14:55 15:15 15:55 16:25 16:50 18:00 18:25 19:40 20:05 20:50 21:20 21:40 23:00 23:20
+    Horários do Bairro: 04:30 05:15 06:20 07:20 08:20 08:55 09:25 10:35 11:05 12:05 12:35 13:15 14:10 14:50 15:25 15:45 16:25 16:55 17:20 18:30 18:55 20:10 20:35 21:20 21:50 22:10 23:30 23:50
+- Linha E08 - JACAROÁ (VIA AMIZADE)
+    Horários de Saída: 04:40 05:40 06:40 07:40 08:45 09:40 10:35 11:40 12:40 13:40 14:40 15:40 16:40 17:40 18:40 19:40 20:40 21:35 22:40
+    Horários do Bairro: 05:05 06:05 07:05 08:10 09:15 10:10 11:10 12:10 13:10 14:10 15:10 16:10 17:10 18:10 19:10 20:10 21:05 22:05 23:05
+- [Adicione mais linhas aqui]
+
+---
+Assunto: Pontos Turísticos
+- Pedra do Elefante: Trilha com vista panorâmica, localizada em Itaipuaçu.
+- Lagoa de Araçatiba: Ótima para caminhadas ao pôr do sol, com quiosques.
+- Farol de Ponta Negra: Vista para o oceano e para a lagoa.
+- Igreja Matriz de N. S. do Amparo: Localizada no centro, patrimônio histórico.
+
+---
+Assunto: Restaurantes Recomendados
+- Barracuda: Frutos do mar em Ponta Negra.
+- Ubatã: Comida regional no Centro.
+- [Adicione mais]
