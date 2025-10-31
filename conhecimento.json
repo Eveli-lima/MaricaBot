@@ -24,9 +24,12 @@
     {
       "nome": "Farol de Ponta Negra",
       "localizacao": "Ponta Negra",
-      "descricao": "Vista para o oceano e para a lagoa."
+      "descricao": "Vista para o oceano e para a lagoa.",
+      "imagem":
     }
   ],
+
+
   "horarios_vermelhinhos": {
     "E08 - JACAROÁ (VIA AMIZADE)": {
       "horarios_saida": [
