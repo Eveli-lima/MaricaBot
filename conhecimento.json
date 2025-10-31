@@ -1,0 +1,52 @@
+﻿
+{
+  "sobre_bot": {
+    "descricao": "Eu sou o MaricáBot, um assistente virtual focado em Maricá, RJ. Eu uso a IA do Google (Gemini) e uma base de dados local para te ajudar!",
+    "criador": "Criado por Éveli."
+  },
+  "numeros_emergencia": {
+    "SAMU": "192 (Ambulância)",
+    "Policia Militar": "190",
+    "Defesa Civil de Maricá": "199 ou (21) 98785-3205",
+    "Guarda Municipal de Maricá": "153"
+  },
+  "pontos_turisticos": [
+    {
+      "nome": "Pedra do Elefante",
+      "localizacao": "Itaipuaçu",
+      "descricao": "Trilha com vista panorâmica."
+    },
+    {
+      "nome": "Lagoa de Araçatiba",
+      "localizacao": "Centro/Araçatiba",
+      "descricao": "Ótima para caminhadas ao pôr do sol, com quiosques."
+    },
+    {
+      "nome": "Farol de Ponta Negra",
+      "localizacao": "Ponta Negra",
+      "descricao": "Vista para o oceano e para a lagoa."
+    }
+  ],
+  "horarios_vermelhinhos": {
+    "E08 - JACAROÁ (VIA AMIZADE)": {
+      "horarios_saida": [
+        "04:40", "05:40", "06:40", "07:40", "08:45", "09:40", "10:35",
+        "11:40", "12:40", "13:40", "14:40", "15:40", "16:40", "17:40",
+        "18:40", "19:40", "20:40", "21:35", "22:40"
+      ],
+      "horarios_bairro": [
+        "05:05", "06:05", "07:05", "08:10", "09:15", "10:10", "11:10",
+        "12:10", "13:10", "14:10", "15:10", "16:10", "17:10", "18:10",
+        "19:10", "20:10", "21:05", "22:05", "23:05"
+      ]
+    },
+    "E02 - CENTRO-ARAÇATIBA": {
+      "horarios_saida": [
+        "06:00", "06:40", "07:20"
+      ],
+      "horarios_bairro": [
+        "06:20", "07:00", "07:40"
+      ]
+    }
+  }
+}
