@@ -38,7 +38,7 @@ Antes de começar, você precisará de:
 
 ### 2. Baixe os Arquivos do Projeto
 
-Baixe os arquivos (`bot.py`, `conhecimento_marica.txt`, etc.) para uma pasta em seu computador.
+Baixe os arquivos (`bot.py`, `conhecimento.json`, etc.) para uma pasta em seu computador.
 
 ### 3. Crie um Ambiente Virtual (Recomendado)
 
@@ -89,7 +89,7 @@ Para manter seus tokens seguros, nunca os escreva diretamente no código.
 
 ### 7. Personalize a Base de Conhecimento
 
-Abra o arquivo ```conhecimento_marica.txt``` e adicione/edite as informações que você quer que seu bot saiba. Quanto mais detalhado este arquivo, mais inteligente será o seu bot.
+Abra o arquivo ```conhecimento.json``` e adicione/edite as informações que você quer que seu bot saiba. Quanto mais detalhado este arquivo, mais inteligente será o seu bot.
 
 ### 8. Rode o Bot!
 
