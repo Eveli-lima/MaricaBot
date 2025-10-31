@@ -8,8 +8,8 @@ O bot é projetado para responder perguntas sobre pontos turísticos, serviços 
 
 Este bot não depende apenas do conhecimento genérico da IA. Ele utiliza uma técnica chamada **RAG (Retrieval-Augmented Generation)**.
 
-1.  **Base de Conhecimento:** Criamos um arquivo de texto (`conhecimento_marica.txt`) que serve como a "memória" ou "cérebro" do bot com informações precisas e verificadas sobre Maricá.
-2.  **Contextualização:** Quando um usuário faz uma pergunta (ex: "Qual o telefone da Defesa Civil?"), o código Python primeiro lê o arquivo `conhecimento_marica.txt`.
+1.  **Base de Conhecimento:** Criamos um arquivo de texto (`conhecimento.json`) que serve como a "memória" ou "cérebro" do bot com informações precisas e verificadas sobre Maricá.
+2.  **Contextualização:** Quando um usuário faz uma pergunta (ex: "Qual o telefone da Defesa Civil?"), o código Python primeiro lê o arquivo `conhecimento.json`.
 3.  **Geração Aumentada:** O script então envia um prompt para a IA Gemini que inclui:
     * Todo o conteúdo do arquivo de texto (o contexto).
     * Uma instrução de sistema (ex: "Responda *apenas* com base neste contexto").
