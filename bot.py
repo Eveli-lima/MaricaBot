@@ -89,7 +89,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
         f"--- FIM DO CONTEXTO ---\n\n"
         f"**Regra:** Use *apenas* as informações do contexto acima para responder.\n"
         f"**Pergunta do Usuário:** {user_message}\n\n"
-        f"**Resposta (em formato HTML, usando apenas <b>, <i>, <code>, <u>):**" # Instrução reforçada
+        f"**Resposta (em formato HTML, usando <a> para links e <b>, <i>, <code>, <u> para formatação. Não use <p> ou <br>):**" # Instrução reforçada
     )
     # --- Fim da Lógica do RAG ---
 
@@ -100,6 +100,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
             
             raw_text = response.text
             cleaned_text = raw_text.replace("<p>", "").replace("</p>", "\n")
+            cleaned_text = cleaned_text.replace("<br>", "\n").replace("<br />", "\n")
             
             await update.message.reply_text(
                 cleaned_text, # <--- Enviamos o texto limpo

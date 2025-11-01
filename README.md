@@ -8,8 +8,8 @@ O bot é projetado para responder perguntas sobre pontos turísticos, serviços 
 
 Este bot não depende apenas do conhecimento genérico da IA. Ele utiliza uma técnica chamada **RAG (Retrieval-Augmented Generation)**.
 
-1.  **Base de Conhecimento:** Criamos um arquivo de texto (`conhecimento_marica.txt`) que serve como a "memória" ou "cérebro" do bot com informações precisas e verificadas sobre Maricá.
-2.  **Contextualização:** Quando um usuário faz uma pergunta (ex: "Qual o telefone da Defesa Civil?"), o código Python primeiro lê o arquivo `conhecimento_marica.txt`.
+1.  **Base de Conhecimento:** Criamos um arquivo de texto (`conhecimento.json`) que serve como a "memória" ou "cérebro" do bot com informações precisas e verificadas sobre Maricá.
+2.  **Contextualização:** Quando um usuário faz uma pergunta (ex: "Qual o telefone da Defesa Civil?"), o código Python primeiro lê o arquivo `conhecimento.json`.
 3.  **Geração Aumentada:** O script então envia um prompt para a IA Gemini que inclui:
     * Todo o conteúdo do arquivo de texto (o contexto).
     * Uma instrução de sistema (ex: "Responda *apenas* com base neste contexto").
@@ -38,7 +38,7 @@ Antes de começar, você precisará de:
 
 ### 2. Baixe os Arquivos do Projeto
 
-Baixe os arquivos (`bot.py`, `conhecimento_marica.txt`, etc.) para uma pasta em seu computador.
+Baixe os arquivos (`bot.py`, `conhecimento.json`, etc.) para uma pasta em seu computador.
 
 ### 3. Crie um Ambiente Virtual (Recomendado)
 
@@ -89,7 +89,7 @@ Para manter seus tokens seguros, nunca os escreva diretamente no código.
 
 ### 7. Personalize a Base de Conhecimento
 
-Abra o arquivo ```conhecimento_marica.txt``` e adicione/edite as informações que você quer que seu bot saiba. Quanto mais detalhado este arquivo, mais inteligente será o seu bot.
+Abra o arquivo ```conhecimento.json``` e adicione/edite as informações que você quer que seu bot saiba. Quanto mais detalhado este arquivo, mais inteligente será o seu bot.
 
 ### 8. Rode o Bot!
 

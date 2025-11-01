@@ -1,5 +1,4 @@
-﻿
-{
+﻿{
   "sobre_bot": {
     "descricao": "Eu sou o MaricáBot, um assistente virtual focado em Maricá, RJ. Eu uso a IA do Google (Gemini) e uma base de dados local para te ajudar!",
     "criador": "Criado por Éveli."
@@ -24,13 +23,219 @@
     {
       "nome": "Farol de Ponta Negra",
       "localizacao": "Ponta Negra",
-      "descricao": "Vista para o oceano e para a lagoa.",
-      "imagem":
+      "descricao": "Vista para o oceano e para a lagoa."
     }
   ],
-
-
+  "restaurantes": [
+    {
+      "nome": "Toca do Espanhol",
+      "link_maps": "https://maps.app.goo.gl/JGVRWhC7N5JCr2bm8",
+      "localizacao": "Av. Central, 13476 - Cordeirinho, Maricá - RJ, 24900-000",
+      "descricao": "Churrascaraia"
+    },
+    {
+      "nome": "Kilograma",
+      "localizacao": "R. Athaíde Parreiras, 198 - Centro, Maricá - RJ, 24901-000",
+      "link_maps": "https://maps.app.goo.gl/Vp69JLvfwqh34n3f7",
+      "descricao": "Restaurante Self-service"
+    },
+    {
+      "nome": "Restaurante João & João - Praia",
+      "link_maps": "https://maps.app.goo.gl/VX2sSqyie3Y1uredA",
+      "localizacao": "Esquina da - Av. Maysa, R. 92 - Cordeirinho, Maricá - RJ, 24921-456",
+      "descricao": "Restaurante Self-service"
+    },
+    {
+      "nome": "Restaurante João & João - Centro",
+      "link_maps": "https://maps.app.goo.gl/XHdrfFbqU9oaUnWp6",
+      "localizacao": "R. Ataíde Parreira, 127 - Centro, Maricá - RJ, 24901-000",
+      "descricao": "Restaurante Self-service"
+    },
+    {
+      "nome": "João e João Braseiro",
+      "link_maps": "https://maps.app.goo.gl/Hpfg1pAhNgrcHiqQ6",
+      "localizacao": "R. Athaíde Parreiras, 119 - Eldorado, Maricá - RJ, 24901-000",
+      "descricao": "Churrascaraia"
+    },
+    {
+      "nome": "Casa Grill",
+      "link_maps": "https://maps.app.goo.gl/5p1kaaMq6SbNMk26A",
+      "localizacao": "R. Almeida Fagundes, 104 - Centro, Maricá - RJ, 24900-860",
+      "descricao": "Restaurante Self-service e Alacarte"
+    },
+    {
+      "nome": "Tanakara Gastronomia Japonesa Natural",
+      "link_maps": "https://maps.app.goo.gl/RvEYihLP7VoEdBCb6",
+      "localizacao": "Av. N Sra do Amparo, 352 - loja 01 - Centro, Maricá - RJ, 24900-830",
+      "descricao": "Restaurante Japonês"
+    },
+    {
+      "nome": "Aleixo Bar e Restaurante",
+      "link_maps": "https://maps.app.goo.gl/XLd92upatbkx7H8T8",
+      "localizacao": "R. Dr. Pedro Da Cunha, 7 - Araçatiba, Maricá - RJ, 24901-300",
+      "descricao": "Restaurante Alacarte"
+    },
+    {
+      "nome": "Bora Bora - Restaurante",
+      "link_maps": "https://maps.app.goo.gl/gQmxtWZa4whoMe797",
+      "localizacao": "R. Álvares de Castro, 632 - Araçatiba, Maricá - RJ, 24900-000",
+      "descricao": "Restaurante Alacarte"
+    }
+  ],
+  "Hotel": [
+    {
+      "nome": "Hotel Emanuel",
+      "link_maps": "https://maps.app.goo.gl/x81n5aEuoXVV39CE6",
+      "localizacao": "Rua Lúcio Correia da Silva, 318 - Zacarias, Maricá - RJ, 24915-580",
+      "Telefone": "021999934160",
+      "site": "https://instagram.com/emanuel.hotel?igshid=MWI4MTIyMDE="
+    },
+    {
+      "nome": "Black Point Beach Club",
+      "link_maps": "https://maps.app.goo.gl/zwF6YJnrnkALDsLg9",
+      "localizacao": "Rua 157 Lot, 2A - Ponta Negra, Maricá - RJ, 24922-125",
+      "Telefone": "021967446970",
+      "site": "https://hotels.cloudbeds.com/reservas/6WFD8P"
+    },
+    {
+      "nome": "Casa do Maracuja",
+      "link_maps": "https://maps.app.goo.gl/rg9ajF6dCuEPZeGC6",
+      "localizacao": "R. Três Pontes, 35 - Ponta Negra, Maricá - RJ, 24922-235",
+      "Telefone": "021982024548",
+      "site": "https://casadomaracuja.com/"
+    },
+    {
+      "nome": "Pousada Castelinho",
+      "link_maps": "https://maps.app.goo.gl/FpAY4qAN4P3tG5Pf7",
+      "localizacao": "Av. Roberto Silveira, 524 - B2 - Flamengo, Maricá - RJ, 24900-445",
+      "Telefone": "021972503002",
+      "site": "Reservas apenas por telefone"
+    },
+    {
+      "nome": "Pousada Vila da Praia",
+      "link_maps": "https://maps.app.goo.gl/qysDdpAtnkDm5DEJ7",
+      "localizacao": "R. Oscar Niemeyer, 12 - Itaipuaçu, Maricá - RJ, 24936-510",
+      "Telefone": "021987678577",
+      "site": "https://www.instagram.com/viladapraia.ita?igsh=MXA5bjNkYW56NmZyNQ=="
+    },
+    {
+      "nome": "Pousada Mirante do Pôr do Sol",
+      "link_maps": "https://maps.app.goo.gl/kLVWBb8zKTjCVUc49",
+      "localizacao": "R. Luiz Fernando dos Santos Caetano, 10 - quadra 05 - Jacaroá, Maricá - RJ, 24903-150",
+      "Telefone": "021988681844",
+      "site": "https://www.booking.com/hotel/br/pousada-mirante-do-por-do-sol.pt-br.html?aid=360920&label=New_Portuguese_PT_ROW_6409090206-_9oPl604g33uUPimd0_L7QS60966725526%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg&sid=e1687355a2e93a1defca701ec6535c1b&age=3&dest_id=-653966&dest_type=city&dist=0&group_adults=2&group_children=1&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_age=3&req_children=1&room1=A%2CA%2C3&sb_price_type=total&sr_order=popularity&srepoch=1705574589&srpvid=005d4a6191580021&type=total&ucfs=1&activeTab=main"
+    },
+    {
+      "nome": "Pousada do Pancho",
+      "link_maps": "https://maps.app.goo.gl/vNqqPnZgKi3uUVdg9",
+      "localizacao": "R. Pereira Neves, 218 - Centro, Maricá - RJ, 24900-660",
+      "Telefone": "021964301019",
+      "site": "https://www.pousadapancho.com.br/"
+    },
+    {
+      "nome": "Hotel Fazenda Canto da Serra",
+      "link_maps": "https://maps.app.goo.gl/aJ6pGJucZGnPdd7v8",
+      "localizacao": "RJ-106 - Barra de São João, Casimiro de Abreu - RJ, 28990-000",
+      "Telefone": "021964562473",
+      "site": "http://www.hotelfazendacantodaserra.com.br/"
+    },
+    {
+      "nome": "Pousada Costa do Sol Maricá",
+      "link_maps": "https://maps.app.goo.gl/94GTn3znTNhvnSfv6",
+      "localizacao": "RJ-114, lote 22 - quadra 149 - Boqueirão, Maricá - RJ, 24901-615",
+      "Telefone": "021972800123",
+      "site": "http://www.pousadacostadosolmarica.com/"
+    },
+    {
+      "nome": "Pé Nareia Suítes Pousada",
+      "link_maps": "https://maps.app.goo.gl/MRF6i6oThmwS91LL8",
+      "localizacao": "Avenida Benvindo Taques Horta Junior - Barroco, Maricá - RJ, 24936-520",
+      "Telefone": "021977029254",
+      "site": "https://www.penareiasuites.com/"
+    }
+  ],
+  "academias": [
+    {
+      "nome": "Academia Smart Fit - Maricá",
+      "link_maps": "https://maps.app.goo.gl/tcJVx94z5eN4Kt5n7",
+      "localizacao": "Avenida Benvindo Taques Horta Junior - Barroco, Maricá - RJ, 24936-520",
+      "Telefone": "021977029254",
+      "site": "https://www.penareiasuites.com/"
+    }
+  ],
   "horarios_vermelhinhos": {
+    "E01 - PONTA NEGRA via MANOEL RIBEIRO": {
+      "horarios_saida": [
+        "04:00", "04:45", "05:45", "06:45", "07:45", "08:25", "08:55",
+        "10:05", "10:35", "11:35", "12:05", "12:45", "13:40", "14:20",
+        "14:55", "15:15", "15:55", "16:25", "16:50", "18:00", "18:25",
+        "19:40", "20:05", "20:50", "21:20", "21:40", "23:00", "23:20"
+      ],
+      "horarios_bairro": [
+        "04:30", "05:15", "06:20", "07:20", "08:20", "08:55", "09:25",
+        "10:35", "11:05", "12:05", "12:35", "13:15", "14:10", "14:50",
+        "15:25", "15:45", "16:25", "16:55", "17:20", "18:30", "18:55",
+        "20:10", "20:35", "21:20", "21:50", "22:10", "23:30", "23:50"
+      ]
+    },
+    "E01A - PONTA NEGRA via VALE DA FIGUEIRA": {
+      "horarios_saida": [
+        "00:15", "05:15", "06:15", "07:15", "09:25", "11:05", "13:15",
+        "17:30", "19:05", "22:20"
+      ],
+      "horarios_bairro": [
+        "00:55", "05:55", "06:55", "07:55", "10:05", "11:45", "13:55",
+        "18:10", "19:45", "23:00"
+      ]
+    },
+    "E02 - PONTA NEGRA via CORDEIRINHO (dias_uteis)": {
+      "horarios_saida": [
+        "00:15", "00:50", "02:45", "03:30", "04:00", "04:15", "04:30",
+        "04:45", "05:15", "05:30", "06:00", "06:15", "06:45", "07:00",
+        "07:30", "07:45", "08:15", "08:30", "09:00", "09:15", "09:45",
+        "10:00", "10:30", "10:45", "11:15", "11:30", "12:00", "12:15",
+        "12:30", "13:00", "13:15", "13:45", "14:00", "14:30", "14:45",
+        "15:15", "15:30", "16:00", "16:15", "16:45", "17:00", "17:25",
+        "17:45", "18:15", "18:30", "19:00", "19:15", "19:45", "20:00",
+        "20:30", "20:45", "21:20", "21:40", "22:00", "22:20", "22:40",
+        "23:00", "23:25", "23:50"
+      ],
+      "horarios_bairro": [
+        "00:00", "00:25", "00:50", "01:15", "01:50", "03:30", "04:20",
+        "04:50", "05:15", "05:30", "05:45", "06:15", "06:30", "07:00",
+        "07:15", "07:45", "08:00", "08:30", "08:45", "09:15", "09:30",
+        "10:00", "10:15", "10:45", "11:00", "11:30", "11:45", "12:15",
+        "12:30", "13:00", "13:15", "13:30", "14:00", "14:15", "14:45",
+        "15:00", "15:30", "15:45", "16:15", "16:30", "17:00", "17:15",
+        "17:45", "18:00", "18:30", "18:45", "19:15", "19:30", "20:00",
+        "20:15", "20:45", "21:00", "21:30", "21:45", "22:20", "22:40",
+        "23:00", "23:20", "23:40"
+      ]
+    },
+    "E02 - PONTA NEGRA via (Domingos_e_feriados)": {
+      "horarios_saida": [
+        "00:15", "00:50", "03:30", "04:00", "04:30", "05:00", "05:20",
+        "05:40", "06:00", "06:20", "06:40", "07:00", "07:20", "07:40",
+        "08:00", "08:20", "08:40", "09:00", "09:20", "09:40", "10:00",
+        "10:20", "10:40", "11:00", "11:20", "11:40", "12:00", "12:20",
+        "12:40", "13:00", "13:20", "13:40", "14:00", "14:20", "14:40",
+        "15:00", "15:20", "15:40", "16:00", "16:20", "16:40", "17:00",
+        "17:20", "17:40", "18:00", "18:20", "18:40", "19:00", "19:20",
+        "19:40", "20:00", "20:20", "20:40", "21:00", "21:20", "21:40",
+        "22:00", "22:20", "22:40", "23:10", "23:40"
+      ],
+      "horarios_bairro": [
+        "00:10", "00:40", "01:15", "01:50", "04:10", "04:50", "05:30",
+        "06:00", "06:20", "06:40", "07:00", "07:20", "07:40", "08:00",
+        "08:20", "08:40", "09:00", "09:20", "09:40", "10:00", "10:20",
+        "10:40", "11:00", "11:20", "11:40", "12:00", "12:20", "12:40",
+        "13:00", "13:20", "13:40", "14:00", "14:20", "14:40", "15:00",
+        "15:20", "15:40", "16:00", "16:20", "16:40", "17:00", "17:20",
+        "17:40", "18:00", "18:20", "18:40", "19:00", "19:20", "19:40",
+        "20:00", "20:20", "20:40", "21:00", "21:20", "21:40", "22:00",
+        "22:20", "22:40", "23:00", "23:20", "23:40"
+      ]
+    },
     "E08 - JACAROÁ (VIA AMIZADE)": {
       "horarios_saida": [
         "04:40", "05:40", "06:40", "07:40", "08:45", "09:40", "10:35",
